@@ -27,4 +27,3 @@ public class Main {
         counter.run(filePath);
     }
 }
-// javac -cp /Users/hojunhwang/Downloads/jfreechart-1.0.19.jar *java
