@@ -1,8 +1,3 @@
-Ho jun Hwang(matricule : 20108081)
-Montassar Elkolli
-
-
-Explication du code
 
 Main: Après avoir compilé les fichiers java, exécutez le fichier via la commande "java Main [chemin] [extension]". Instanciez Counter et exécutez la méthode d'exécution. L'extension doit être java.
 
@@ -18,10 +13,6 @@ ClassCounter: enregistre les informations nécessaires dans l'objet ClassCountDa
 MethodCounter: lors de la lecture des méthodes de chaque classe, les informations nécessaires sont enregistrées dans l'objet MethodCountData.
 
 
-
-
-
-Partie 4.
 
 On a appliqué notre programme pour fichier du JFreeChart GitHub. Au milieu de l'exécution, il y a une erreur à cause de class Name. Alors, on l'a fixé comme “className = file.getName();”. Après, ca marche jusqu'au bout du répertoire
 . Mais, il y avait un problème, car cela va au fond mais cela ne marche pas récursivement. Pour améliorer notre application, on doit changer la façon à extraire le nom de classe(qui ne pas utiliser le magic valeur), et compléter l'appel récursif.
